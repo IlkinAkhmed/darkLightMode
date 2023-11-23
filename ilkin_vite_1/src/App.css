@@ -1,0 +1,30 @@
+:root{
+  --main-bg-color: white;
+  --main-text-color: black;
+  --second-bg-color: blue;
+  --second-text-color: white;
+}
+.dark{
+  --main-bg-color:rgb(112, 112, 112);
+  --main-text-color:white;
+  --second-bg-color: rgb(255, 60, 0);
+  --second-text-color: rgb(65, 63, 63);
+}
+body{
+  background-color: var(--main-bg-color);
+  color: var(--main-text-color);
+}
+h1{
+  background-color: var(--second-bg-color);
+  color: var(--second-text-color);
+}
+ul{
+  background-color: var(--main-bg-color);
+}
+li{
+  color: var(--main-text-color);
+}
+p{
+  background-color: var(--second-bg-color);
+  color: var(--second-text-color);
+}
